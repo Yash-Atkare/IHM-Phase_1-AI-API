@@ -1,0 +1,588 @@
+{
+  "parent_name": "Sarah",
+  "child_name": "Emma",
+  "child_age": "1–2 years",
+  "focus_area": "Sleep Issues",
+  "sleeping_arrangement": "Shared room",
+  "parenting_style": "crunchy",
+  "additional_needs": ["Twins", "Sensory sensitivity"],
+  "specific_answers": {
+    "Current sleep challenge": "Waking at night",
+    "How long has this been a problem?": "1–2 months",
+    "Current response at night": "Pat / rock back to sleep",
+    "Ideal sleep goal": "Sleeping through the night",
+    "Sleep training style": "Gentle only",
+    "Hands-on involvement": "Sit by crib",
+    "Preferred time commitment": "Okay with gradual plan"
+  }
+}
+#--------------------------------------------------------------------------------
+
+{
+  "parent_name": "Sophia",
+  "child_name": "Noah",
+  "child_age": "2+ years",
+  "focus_area": "Potty Training",
+  "parenting_style": "modern balanced",
+  "sleeping_arrangement": "Own room",
+  "additional_needs": ["Sensory sensitivity"],
+  "specific_answers": {
+    "Potty stage": "Some potty exposure",
+    "What’s working": "Sits on potty sometimes",
+    "Potty behavior": "Asks to be changed",
+    "Reaction to potty": "Curious",
+    "Regression": "No regression",
+    "Preferred approach": "Gentle & gradual",
+    "Biggest concern": "Refuses to sit",
+    "Timeline goal": "At child’s pace"
+  }
+}
+# Output
+{
+    "parenting_plan": {
+        "summary": "Sophia, embarking on potty training with Noah is a significant milestone. The main goal is to help Noah become comfortable and confident with using the potty. This plan combines gentle steps with practical strategies to support Noah's sensory needs and curiosity. By following this plan, you can expect gradual progress at Noah's own pace, leading to successful potty training.",
+        "daily_routine": {
+            "table_markdown": "| Time | Activity |\n|---|---|\n| 7:00 AM | Morning potty sit |\n| 9:30 AM | Mid-morning potty reminder |\n| 12:00 PM | Pre-nap potty time |\n| 3:00 PM | Afternoon potty check |\n| 6:00 PM | Post-dinner potty sit |\n| 8:00 PM | Bedtime potty routine |",
+            "notes": [
+                "Routine times are flexible; adjust as needed for Noah's comfort."
+            ]
+        },
+        "key_points": [
+            "Encourage Noah to sit on the potty at regular intervals.",
+            "Use sensory-friendly tools to make potty time comfortable.",
+            "Praise Noah for any potty-related effort.",
+            "Incorporate potty-themed books or songs.",
+            "Be patient and follow Noah's pace."
+        ],
+        "detailed_plan": {
+            "**Create a Routine**": [
+                "Introduce a consistent potty schedule for Noah.",
+                "Incorporate potty time into existing daily activities.",
+                "Use a timer app to remind Noah gently."
+            ],
+            "**Sensory Considerations**": [
+                "Provide a soft potty seat for Noah's comfort.",
+                "Use calming music or sounds during potty time.",
+                "Allow Noah to hold a favorite toy while sitting."
+            ],
+            "**Positive Reinforcement**": [
+                "Celebrate small wins with stickers or a chart.",
+                "Offer verbal praise when Noah sits on the potty.",
+                "Use a reward system for consistent potty use."
+            ],
+            "**Avoid**": [
+                "Avoid pressuring Noah to sit if he's resistant.",
+                "Don't compare Noah's progress to other children.",
+                "Refrain from showing frustration during setbacks."
+            ],
+            "**Incorporate Learning**": [
+                "Read potty-themed books with Noah regularly.",
+                "Watch educational potty videos together.",
+                "Discuss potty habits during playtime."
+            ]
+        },
+        "End_notes": "Sophia, remember that every child progresses at their own pace. Celebrate each step forward and seek support from our Experts Consultants if needed. You're doing a great job!"
+    }
+}
+
+#--------------------------------------------------------------------------------
+
+{
+  "parent_name": "Rachel",
+  "child_name": "Ava",
+  "child_age": "4–6 months",
+  "focus_area": "Feeding / Breastfeeding / Weaning",
+  "parenting_style": "crunchy",
+  "sleeping_arrangement": "Bedsharing",
+  "additional_needs": [],
+  "specific_answers": {
+    "Current feeding style": "Breastfeeding only",
+    "Main concern": "Low supply",
+    "Feeding challenges": "Baby refuses bottle",
+    "Feeding goal": "Boost supply",
+    "Timeline": "Immediately",
+    "Structure": "Detailed daily plan",
+    "Philosophy": "Gentle & gradual"
+  }
+}
+# Output
+{
+    "parenting_plan": {
+        "summary": "Rachel, you're doing an amazing job nurturing Ava. Our focus will be on boosting your milk supply while maintaining a gentle and natural approach. This plan will guide you through enhancing your breastfeeding experience with Ava. By following this plan consistently, you can expect an improved milk supply and a more satisfying feeding routine for both you and Ava.",
+        "daily_routine": {
+            "table_markdown": "| Time | Activity |\n|---|---|\n| 6:00 AM | Morning breastfeeding session |\n| 9:00 AM | Skin-to-skin time |\n| 12:00 PM | Relaxing herbal tea break |\n| 3:00 PM | Afternoon breastfeeding session |\n| 5:00 PM | Gentle breast massage |\n| 8:00 PM | Evening breastfeeding session |\n| 10:00 PM | Bedsharing preparation |\n| 2:00 AM | Nighttime breastfeeding session |",
+            "notes": [
+                "Adjust times as needed to fit Ava's natural rhythm."
+            ]
+        },
+        "key_points": [
+            "Focus on frequent breastfeeding to boost supply.",
+            "Incorporate skin-to-skin contact daily.",
+            "Stay hydrated with water and herbal teas.",
+            "Use breast massage to stimulate milk flow.",
+            "Trust Ava's feeding cues and your intuition."
+        ],
+        "detailed_plan": {
+            "**Boost Milk Supply**": [
+                "Breastfeed Ava on demand to naturally increase supply.",
+                "Drink fenugreek tea twice daily for lactation support.",
+                "Ensure adequate rest to support your body's milk production."
+            ],
+            "**Encourage Bottle Acceptance**": [
+                "Introduce a bottle with expressed milk when Ava is calm.",
+                "Use a slow-flow nipple to mimic breastfeeding.",
+                "Have a trusted person offer the bottle when you're not nearby."
+            ],
+            "**Enhance Breastfeeding Experience**": [
+                "Create a calming environment with soft music and dim lights.",
+                "Use essential oils like lavender to relax during feeds.",
+                "Practice deep breathing exercises while feeding Ava."
+            ],
+            "**Avoid**": [
+                "Avoid introducing formula unless medically advised.",
+                "Do not force Ava to take a bottle; be patient."
+            ],
+            "**Supportive Practices**": [
+                "Join a local breastfeeding support group for encouragement.",
+                "Consult with a lactation expert if challenges persist.",
+                "Document Ava's feeding patterns to identify any changes."
+            ]
+        },
+        "End_notes": "Rachel, remember that every step you take is helping Ava grow strong and healthy. Trust your instincts and know that you're not alone in this journey. If you need further assistance, don't hesitate to reach out to our Experts Consultants for personalized support."
+    }
+}
+#--------------------------------------------------------------------------------
+{
+  "parent_name": "Michael",
+  "child_name": "Ethan",
+  "child_age": "1–2 years",
+  "focus_area": "Behavior / Tantrums / Emotional Development",
+  "parenting_style": "attachment-focused",
+  "sleeping_arrangement": "Shared room",
+  "additional_needs": ["Developmental delays"],
+  "specific_answers": {
+    "Behaviors": ["Aggression / outbursts", "Screen time battles"],
+    "Frequency": "Daily",
+    "Triggers": "Too much screen time",
+    "Parenting style": "Gentle",
+    "Support wanted": "Tantrum scripts",
+    "Response to meltdowns": "Frustrated",
+    "Biggest frustration": "Child not listening",
+    "Approach": "Sustainable long-term change"
+  }
+}
+# Output
+{
+    "parenting_plan": {
+        "summary": "Michael, you're doing a great job navigating the challenges of parenting a toddler. The main goal is to support Ethan's emotional development and manage tantrums effectively. This plan will help by providing structured routines and strategies to address outbursts and improve communication. By following this plan consistently, you can expect a calmer environment and a stronger emotional bond with Ethan.",
+        "daily_routine": {
+            "table_markdown": "| Time | Activity |\n|---|---|\n| 7:00 AM | Wake up and cuddle |\n| 8:00 AM | Breakfast together |\n| 10:00 AM | Outdoor playtime |\n| 12:00 PM | Lunch and quiet time |\n| 2:00 PM | Nap time |\n| 4:00 PM | Interactive play |\n| 6:00 PM | Dinner and family time |\n| 7:30 PM | Bedtime routine and story |\n",
+            "notes": [
+                "Routine can be adjusted based on Ethan's mood and needs."
+            ]
+        },
+        "key_points": [
+            "Limit screen time to 30 minutes daily.",
+            "Use gentle redirection during outbursts.",
+            "Encourage verbal expression of feelings.",
+            "Create a calm-down corner with Ethan.",
+            "Model and practice deep breathing together."
+        ],
+        "detailed_plan": {
+            "**Emotional Development**": [
+                "Encourage Ethan to name his emotions using simple words.",
+                "Use babywearing to provide comfort during stressful times.",
+                "Practice empathy by acknowledging Ethan's feelings."
+            ],
+            "**Tantrum Management**": [
+                "Create a safe space for Ethan to calm down.",
+                "Use a gentle voice to guide Ethan through meltdowns.",
+                "Offer choices to give Ethan a sense of control."
+            ],
+            "**Screen Time**": [
+                "Set clear limits on screen time and stick to them.",
+                "Engage Ethan in alternative activities like puzzles.",
+                "Co-view and discuss content to make it interactive."
+            ],
+            "**Avoid**": [
+                "Avoid using screens as a distraction during meals.",
+                "Do not raise your voice during outbursts."
+            ],
+            "**Communication**": [
+                "Use simple language to explain expectations to Ethan.",
+                "Encourage Ethan to use words to ask for help.",
+                "Praise Ethan when he communicates effectively."
+            ]
+        },
+        "End_notes": "Michael, remember that your patience and love are vital to Ethan's growth. If you need further guidance, feel free to reach out to our Expert Consultants for personalized support."
+    }
+}
+#--------------------------------------------------------------------------------
+{
+  "parent_name": "Olivia",
+  "child_name": "Mia",
+  "child_age": "0–3 months",
+  "focus_area": "Sleep Issues",
+  "parenting_style": "high-achiever",
+  "sleeping_arrangement": "Bedsharing",
+  "additional_needs": [],
+  "specific_answers": {
+    "Current sleep challenge": "Regression",
+    "Duration": "Just started",
+    "Night response": "Feed immediately",
+    "Ideal goal": "Better naps",
+    "Training style": "Fast results matter more",
+    "Hands-on involvement": "Minimal involvement",
+    "Time commitment": "Quick fix"
+  }
+}
+
+# Output
+{
+    "parenting_plan": {
+        "summary": "Olivia, embarking on this journey to improve Mia's sleep is a positive step. Our focus is to address Mia's sleep regression with a fast, efficient plan. This method will provide expert-backed strategies for quick results. By following this plan, you can expect better naps and a smoother sleep routine for Mia.",
+        "daily_routine": {
+            "table_markdown": "| Time | Activity |\n|---|---|\n| 7:00 AM | Wake up and feed |\n| 9:00 AM | Morning nap |\n| 11:00 AM | Playtime and feed |\n| 1:00 PM | Afternoon nap |\n| 3:00 PM | Short walk outside |\n| 5:00 PM | Evening nap |\n| 7:00 PM | Bedtime routine |\n| 9:00 PM | Night feed and sleep |",
+            "notes": [
+                "Adjust nap times based on Mia's cues",
+                "Flexibility is key; adapt as needed"
+            ]
+        },
+        "key_points": [
+            "Implement a consistent sleep schedule for Mia.",
+            "Use a calming bedtime routine to signal sleep.",
+            "Respond to night wakings with minimal interaction.",
+            "Track Mia's sleep patterns for adjustments.",
+            "Focus on creating a sleep-friendly environment."
+        ],
+        "detailed_plan": {
+            "**Establish Routine**": [
+                "Create a consistent bedtime routine for Mia.",
+                "Include calming activities like a warm bath.",
+                "Use soft music or white noise to soothe Mia."
+            ],
+            "**Night Response**": [
+                "Feed Mia immediately upon waking at night.",
+                "Keep interactions minimal to avoid stimulation.",
+                "Ensure the room is dark and quiet during feeds."
+            ],
+            "**Daytime Strategy**": [
+                "Encourage Mia's naps in a quiet, dark room.",
+                "Limit daytime naps to 2-3 hours each.",
+                "Engage Mia in active play during wake times."
+            ],
+            "**Avoid**": [
+                "Avoid overstimulation before bedtime.",
+                "Do not skip Mia's naps, even if short."
+            ],
+            "**Track Progress**": [
+                "Log Mia's sleep times to identify patterns.",
+                "Adjust the routine based on Mia's sleep cues.",
+                "Celebrate small wins to stay motivated."
+            ]
+        },
+        "End_notes": "Olivia, your dedication to Mia's sleep is commendable. Remember, consistency is key, and small adjustments can lead to big changes. If you need further guidance, our Expert Consultants are here to help."
+    }
+}
+#--------------------------------------------------------------------------------
+{
+  "parent_name": "Daniel",
+  "child_name": "Emma",
+  "child_age": "2+ years",
+  "focus_area": "Sleep Issues",
+  "parenting_style": "modern balanced",
+  "sleeping_arrangement": "Own room",
+  "additional_needs": ["Medical conditions"],
+  "specific_answers": {
+    "Current sleep challenge": "Early waking",
+    "Duration": "Long-term / ongoing",
+    "Night response": "Leave to settle",
+    "Ideal goal": "Transitioning from bedsharing",
+    "Training style": "Some crying okay",
+    "Hands-on involvement": "Quick check-ins",
+    "Time commitment": "Low effort preferred"
+  }
+}
+# Output
+{
+    "parenting_plan": {
+        "summary": "Daniel, you're doing a great job navigating Emma's sleep challenges. Our main goal is to help Emma transition from bedsharing and address her early waking. This plan combines gentle steps with practical strategies to suit your busy lifestyle. With consistent application, you can expect improved sleep patterns and a smoother bedtime routine for Emma.",
+        "daily_routine": {
+            "table_markdown": "| Time | Activity |\n|---|---|\n| 7:00 PM | Bath time |\n| 7:30 PM | Storytime in Emma's room |\n| 8:00 PM | Bedtime routine with lullabies |\n| 8:15 PM | Lights out, settle Emma |\n| 10:00 PM | Quick check-in if needed |\n| 6:00 AM | Wake-up routine |\n| 12:00 PM | Nap time |\n| 3:00 PM | Afternoon playtime |",
+            "notes": [
+                "Times are flexible; adjust based on Emma's needs."
+            ]
+        },
+        "key_points": [
+            "Establish a consistent bedtime routine for Emma.",
+            "Use a white noise machine to help Emma settle.",
+            "Gradually reduce your presence at bedtime.",
+            "Encourage Emma to self-soothe during early waking.",
+            "Monitor Emma's sleep patterns with a sleep app."
+        ],
+        "detailed_plan": {
+            "**Create a Calming Environment**": [
+                "Dim the lights in Emma's room before bedtime.",
+                "Play soft music or white noise to soothe Emma.",
+                "Ensure Emma's room is at a comfortable temperature."
+            ],
+            "**Consistent Bedtime Routine**": [
+                "Start with a warm bath to relax Emma.",
+                "Read a short story to Emma every night.",
+                "Sing a lullaby to signal bedtime."
+            ],
+            "**Gradual Transition from Bedsharing**": [
+                "Spend time in Emma's room before bed.",
+                "Sit by Emma's bed until she falls asleep.",
+                "Gradually move further away each night."
+            ],
+            "**Avoid**": [
+                "Avoid screen time an hour before bed.",
+                "Don't rush to Emma at the first sound.",
+                "Avoid sugary snacks before bedtime."
+            ],
+            "**Monitor and Adjust**": [
+                "Use a sleep app to track Emma's sleep.",
+                "Adjust bedtime based on Emma's sleep cues.",
+                "Consult with a pediatrician for medical advice."
+            ]
+        },
+        "End_notes": "Daniel, remember that every small step counts towards better sleep for Emma. Stay patient and flexible, and don't hesitate to reach out to our Experts Consultants if you need additional support."
+    }
+}
+#--------------------------------------------------------------------------------
+{
+  "parent_name": "Hannah",
+  "child_name": "Leo",
+  "child_age": "1–2 years",
+  "focus_area": "Potty Training",
+  "parenting_style": "routine-based",
+  "sleeping_arrangement": "Shared room",
+  "additional_needs": [],
+  "specific_answers": {
+    "Potty stage": "Still in diapers",
+    "What’s working": "Nothing yet",
+    "Potty behavior": "Shows no interest",
+    "Reaction to potty": "Resistant",
+    "Regression": "No regression",
+    "Preferred approach": "Need help deciding",
+    "Biggest concern": "Accidents everywhere",
+    "Timeline goal": "Quick progress"
+  }
+}
+# Output
+{
+    "parenting_plan": {
+        "summary": "Hannah, embarking on potty training with Leo is a significant milestone, and your commitment to structure will be key. Our focus is to guide Leo from diapers to using the potty confidently. This plan provides a consistent routine and clear steps to help Leo progress quickly. With patience and consistency, you can expect fewer accidents and more successful potty visits.",
+        "daily_routine": {
+            "table_markdown": "| Time | Activity |\n|---|---|\n| 7:00 AM | Wake up and morning potty attempt |\n| 8:00 AM | Breakfast and diaper change |\n| 10:00 AM | Mid-morning potty attempt |\n| 12:00 PM | Lunch and diaper change |\n| 2:00 PM | Nap time and potty attempt before nap |\n| 4:00 PM | Post-nap potty attempt |\n| 6:00 PM | Dinner and diaper change |\n| 7:30 PM | Bedtime routine and final potty attempt |",
+            "notes": [
+                "Adjust times as needed to fit Leo's natural schedule."
+            ]
+        },
+        "key_points": [
+            "Introduce the potty as a friendly tool.",
+            "Establish a consistent potty routine.",
+            "Use positive reinforcement with Leo.",
+            "Track progress with a potty chart.",
+            "Stay patient and celebrate small wins."
+        ],
+        "detailed_plan": {
+            "**Introduce the Potty**": [
+                "Place the potty in the bathroom and let Leo explore.",
+                "Read potty-themed books with Leo to spark interest.",
+                "Encourage Leo to sit on the potty fully clothed initially."
+            ],
+            "**Establish Routine**": [
+                "Take Leo to the potty at regular intervals.",
+                "Incorporate potty time into existing routines.",
+                "Use a timer to remind Leo of potty breaks."
+            ],
+            "**Positive Reinforcement**": [
+                "Praise Leo for sitting on the potty, even if nothing happens.",
+                "Offer small rewards for successful potty use.",
+                "Create a sticker chart to track Leo's progress."
+            ],
+            "**Avoid**": [
+                "Avoid pressuring Leo to use the potty.",
+                "Don't show frustration if accidents happen.",
+                "Avoid comparing Leo's progress to others."
+            ],
+            "**Stay Consistent**": [
+                "Maintain the routine even during outings.",
+                "Communicate with caregivers about Leo's potty schedule.",
+                "Reinforce the same routine daily for familiarity."
+            ]
+        },
+        "End_notes": "Hannah, remember that every child progresses at their own pace. Stay supportive and patient with Leo, and don't hesitate to seek guidance from our Expert Consultants if you need additional support."
+    }
+}
+#--------------------------------------------------------------------------------
+{
+  "parent_name": "Isabella",
+  "child_name": "Sophia",
+  "child_age": "2+ years",
+  "focus_area": "Potty Training",
+  "parenting_style": "high-achiever",
+  "sleeping_arrangement": "Own room",
+  "additional_needs": ["Twins / Multiples"],
+  "specific_answers": {
+    "Potty stage": "Training started",
+    "What’s working": "Understands basics",
+    "Potty behavior": "Hides to poop",
+    "Reaction to potty": "Frustrated",
+    "Regression": "Yes, after stress/sickness",
+    "Preferred approach": "All in / fast",
+    "Biggest concern": "Pooping issues",
+    "Timeline goal": "Before daycare / school"
+  }
+}
+# Output
+{
+    "parenting_plan": {
+        "summary": "Isabella, embarking on potty training with Sophia is an exciting milestone. Our goal is to help Sophia become comfortable and confident using the potty. This plan will guide you through a structured, fast-track method to achieve this goal efficiently. With consistent effort, you can expect Sophia to transition smoothly to using the potty independently, reducing frustration and regression.",
+        "daily_routine": {
+            "table_markdown": "| Time | Activity |\n|---|---|\n| 7:00 AM | Morning potty time |\n| 9:30 AM | Post-breakfast potty attempt |\n| 12:00 PM | Midday potty time |\n| 2:30 PM | Post-nap potty attempt |\n| 5:00 PM | Pre-dinner potty time |\n| 7:30 PM | Bedtime potty routine |\n| 10:00 PM | Check for dryness |\n",
+            "notes": [
+                "Flexibility is key; adjust times based on Sophia's natural schedule."
+            ]
+        },
+        "key_points": [
+            "Use positive reinforcement to encourage Sophia.",
+            "Create a consistent potty schedule.",
+            "Monitor Sophia's cues for needing the potty.",
+            "Address regressions calmly and patiently.",
+            "Celebrate successes to boost Sophia's confidence."
+        ],
+        "detailed_plan": {
+            "**Preparation**": [
+                "Set up a potty in Sophia's room for easy access.",
+                "Introduce Sophia to potty books and videos.",
+                "Explain the process to Sophia in simple terms."
+            ],
+            "**Routine Building**": [
+                "Encourage Sophia to sit on the potty every two hours.",
+                "Use a timer to remind Sophia of potty breaks.",
+                "Track Sophia's potty times to identify patterns."
+            ],
+            "**Positive Reinforcement**": [
+                "Praise Sophia for every attempt, successful or not.",
+                "Offer small rewards for using the potty.",
+                "Create a sticker chart to track Sophia's progress."
+            ],
+            "**Avoid**": [
+                "Avoid showing frustration when accidents happen.",
+                "Do not force Sophia to sit on the potty.",
+                "Avoid comparing Sophia's progress with others."
+            ],
+            "**Handling Regressions**": [
+                "Reassure Sophia during stressful times.",
+                "Revisit basics if regression occurs after sickness.",
+                "Maintain a calm demeanor to support Sophia."
+            ]
+        },
+        "End_notes": "Isabella, remember that patience and consistency are key. Celebrate Sophia's progress and seek guidance from our Expert Consultants if you need additional support. You're doing a wonderful job!"
+    }
+}
+#--------------------------------------------------------------------------------
+{
+  "parent_name": "Grace",
+  "child_name": "Isla",
+  "child_age": "7–12 months",
+  "focus_area": "Feeding / Breastfeeding / Weaning",
+  "parenting_style": "attachment-focused",
+  "sleeping_arrangement": "Shared room",
+  "additional_needs": [],
+  "specific_answers": {
+    "Current feeding style": "Combo feeding",
+    "Main concern": "Latch issues",
+    "Feeding challenges": "Painful feeds",
+    "Feeding goal": "Wean with less stress",
+    "Timeline": "Gradual over weeks",
+    "Structure": "Loose routine",
+    "Philosophy": "Gentle & gradual"
+  }
+}
+# Output
+#--------------------------------------------------------------------------------
+{
+  "parent_name": "Lucas",
+  "child_name": "Ella",
+  "child_age": "2+ years",
+  "focus_area": "Feeding / Breastfeeding / Weaning",
+  "parenting_style": "routine-based",
+  "sleeping_arrangement": "Own room",
+  "additional_needs": ["Sensory sensitivity"],
+  "specific_answers": {
+    "Current feeding style": "Ready to wean",
+    "Main concern": "Frequent feeds",
+    "Feeding challenges": "Baby distracted",
+    "Feeding goal": "Return to work smoothly",
+    "Timeline": "Immediately",
+    "Structure": "Detailed daily plan",
+    "Philosophy": "Efficient & structured"
+  }
+}
+# Output
+#--------------------------------------------------------------------------------
+{
+  "parent_name": "Jack",
+  "child_name": "Oliver",
+  "child_age": "2+ years",
+  "focus_area": "Behavior / Tantrums / Emotional Development",
+  "parenting_style": "routine-based",
+  "sleeping_arrangement": "Own room",
+  "additional_needs": [],
+  "specific_answers": {
+    "Behaviors": ["Refusing rules", "Sibling rivalry"],
+    "Frequency": "Multiple times a week",
+    "Triggers": "Change in routine",
+    "Parenting style": "Firm but loving",
+    "Support wanted": "Routines / boundaries",
+    "Response to meltdowns": "Unsure what to do",
+    "Biggest frustration": "Feeling overwhelmed",
+    "Approach": "Quick results"
+  }
+}
+# Output
+#--------------------------------------------------------------------------------
+{
+  "parent_name": "Chloe",
+  "child_name": "Zara",
+  "child_age": "1–2 years",
+  "focus_area": "Behavior / Tantrums / Emotional Development",
+  "parenting_style": "modern balanced",
+  "sleeping_arrangement": "Bedsharing",
+  "additional_needs": ["Medical conditions"],
+  "specific_answers": {
+    "Behaviors": ["Overstimulated easily", "Withdrawn / quiet"],
+    "Frequency": "Occasionally",
+    "Triggers": "Separation anxiety",
+    "Parenting style": "Need help finding a style",
+    "Support wanted": "Calm-down tools",
+    "Response to meltdowns": "Calm and patient",
+    "Biggest frustration": "Feeling judged",
+    "Approach": "Both"
+  }
+}
+# Output
+#--------------------------------------------------------------------------------
+{
+  "parent_name": "Emily",
+  "child_name": "Liam",
+  "child_age": "7–12 months",
+  "focus_area": "Sleep Issues",
+  "parenting_style": "routine-based",
+  "sleeping_arrangement": "Shared room",
+  "additional_needs": ["Twins / Multiples"],
+  "specific_answers": {
+    "Current sleep challenge": "Waking at night",
+    "Duration": "1–2 months",
+    "Night response": "Pat / rock back to sleep",
+    "Ideal goal": "Sleeping through the night",
+    "Training style": "Gentle only",
+    "Hands-on involvement": "Sit by crib",
+    "Time commitment": "Okay with gradual plan"
+  }
+}
+#--------------------------------------------------------------------------------

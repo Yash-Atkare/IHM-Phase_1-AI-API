@@ -4,6 +4,7 @@ from typing import Optional, List
 import openai
 import os
 import json
+#uvicorn main:app --reload
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 app = FastAPI()
@@ -54,7 +55,7 @@ Sample Language: “We’ll guide you through a proven 3-day method with expert 
 
 # Check for unsafe input
 def is_valid_input(specific_answers: dict) -> bool:
-    block_keywords = ["code", "script", "test", "api", "python", "java", "debug"]
+    block_keywords = ["code", "test", "api", "python", "java", "debug"]
     flat_text = " ".join(str(v).lower() for v in specific_answers.values())
     return not any(keyword in flat_text for keyword in block_keywords)
 
