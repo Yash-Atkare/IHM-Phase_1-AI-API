@@ -4,6 +4,7 @@ from typing import Optional, List
 import openai
 import os
 import json
+from sleep_scoring import calculate_sleep_score
 #uvicorn main:app --reload
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
@@ -77,78 +78,78 @@ class ParentingResponse(BaseModel):
 @app.post("/generate-parenting-plan", response_model=ParentingResponse)
 async def generate_plan(request: ParentingRequest):
     try:
-        # Validate inputs
-        if not is_valid_input(request.specific_answers or {}):
-            raise HTTPException(status_code=400, detail="Input contains unrelated content like code/test.")
+        # If focus is sleep → run scoring logic
+        sleep_result = None
+        if "sleep" in request.focus_area.lower():
+            intake = {
+                "child_age": request.child_age,
+                "sleeping_arrangement": request.sleeping_arrangement,
+                "parent_preference": request.specific_answers.get("parent_preference"),
+                "comforting_style": request.specific_answers.get("comforting_style"),
+                "temperament": request.specific_answers.get("temperament"),
+                "current_issues": request.specific_answers.get("current_issues", []),
+                "overrides": request.specific_answers.get("overrides", [])
+            }
+            raw_result = calculate_sleep_score(intake)
+            # Drop score before sending to GPT
+            sleep_result = {
+                "method": raw_result["method"],
+                "recommendations": raw_result["recommendations"]
+            }
 
+        # Parenting style description
         style_key = (request.parenting_style or "").lower()
         style_info = PARENTING_STYLE_DETAILS.get(style_key)
-
         style_description = style_info["description"] if style_info else "No specific parenting style mentioned."
 
-#         prompt = f"""
-# You are a parenting expert. Based on the details below, create a clear and supportive parenting plan. 
-# The plan should be written in a warm, encouraging tone for the parent, and always use the child’s name.
-
-# ### Report Structure:
-
-# 1. **Summary**  
-#    - Supportive intro (encourage the parent).  
-#    - Focus (state the main goal).  
-#    - Method (how the plan will help).  
-#    - Expected Outcome (what the parent can expect if followed consistently).  
-
-# 2. **Sample Daily Routine**  
-#    Present as a table (Time | Activity) with activities relevant to the focus area.  
-
-# 3. **Key Points**  
-#    Provide 3–5 key techniques or strategies in bullet points (e.g., “Drowsy but awake placement” or “Offer potty before bedtime”).  
-
-# 4. **Detailed Plan Sections**  
-#    Create **five sections**, customized to the focus area.  
-#    Each section should have:  
-#    - A bold heading  
-#    - 2–3 bullet points with actionable advice   
-
-# ### Details:
-# Parent Name: {request.parent_name}  
-# Child Name: {request.child_name}  
-# Child Age: {request.child_age}  
-# Focus Area: {request.focus_area}  
-# Sleeping Arrangement: {request.sleeping_arrangement}  
-# Additional Needs: {", ".join(request.additional_needs or [])}  
-# Specific Answers: {request.specific_answers}  
-
-# Parenting Style: {style_description}  
-
-# ### Notes:
-# - Always use the child’s name in explanations.  
-# - Make the plan supportive, practical, and encouraging.  
-# - Do not add any unrelated content or introductry text.  
-# """
+        # Add sleep scoring result to prompt if available
+        scoring_text = f"""
+        Sleep report suggestions:
+        - Recommended Method: {sleep_result['method']}
+        - Additional Notes: {sleep_result['recommendations']}
+        """ if sleep_result else ""
 
         prompt = f"""
 You are a parenting expert. Produce a **single valid JSON object** only (no backticks, no markdown outside the JSON).
 Use the schema exactly as shown below. Bullet lists must be arrays of strings (2–3 bullets per section).
-Daily routine must be a markdown table with header: "Time | Activity". Include 6–8 rows relevant to the focus area.
+Daily routine must be structured JSON with 6–8 rows, each having "time" and "activity".
 
 RESPONSE JSON SCHEMA (fill all fields):
 {{
-  "summary": {
-    "Supportive intro (encourage the parent),Focus (state the main goal), Method (how the plan will help), Expected Outcome (what the parent can expect if followed consistently). "},
+  "summary": 
+    "Write a supportive intro directly to {request.parent_name}, thank them for sharing {request.child_name}'s journey, acknowledge the challenge, reassure their effort, and explain how the plan will gently guide them. Keep it encouraging and personal. (250-300 characters)"
+  ,
+  "title": "{{plan title with child's name (20-30 characters)}}",
+  "focus": "{{focus summary (100-120 characters)}}",
+  "goal": "{{goal summary (100-120 characters)}}",
+  "method": "{{method summary (300-350 characters)}}",
+  "key_points": ["5 concise, actionable bullets, totaling 200-250 characters"],
+
+  "detailed_plan": {{
+    "**Heading**": ["3 actionable bullets, 7-10 words each, using {request.child_name}'s name when natural"],
+    "**Heading**": ["3 actionable bullets, 7-10 words each"],
+    "**Heading**": ["3 actionable bullets, 7-10 words each"],
+    "**Avoid**": ["2 to 3 actionable bullets, 7-10 words each"],
+    "**Heading**": ["3 actionable bullets, 7-10 words each"]
+  }},
+
+  "suggested_path_for_week": {{
+    "Step 1 / Day 1-3": ["2-3 specific actions for this stage"],
+    "Step 2 / Day 4-6": ["2-3 specific actions for this stage"],
+    "Step 3 / Day 7": ["2-3 specific actions for this stage"]
+  }},
+  
   "daily_routine": {{
-    "table_markdown": "| Time | Activity |\\n|---|---|\\n... six to eight rows ...",
+    "schedule": [
+      {{"time": "07:00 AM", "activity": "Example activity"}},
+      ... 6–8 rows total ...
+    ],
     "notes": ["optional brief notes about timing or flexibility"]
   }},
-  "key_points": [" 5 concise, actionable bullets"],
-  "detailed_plan": {{
-    "**Heading**": ["3 actionable bullets, 8–20 words each, using {request.child_name}'s name when natural"],
-    "**Heading**": ["3 actionable bullets"],
-    "**Heading**": ["3 actionable bullets"],
-    "**Avoid**": ["2 to 3 actionable bullets"],
-    "**Heading**": ["3 actionable bullets"]
-  }}
-  "End_notes": {"Make the note for parent to support and encouragement, and add to seek help from our Experts Consultants if needed."},
+  
+  "End_notes": 
+    "Make the note for parent to support and encouragement, and add to seek help from our Experts Consultants if needed. (300 characters)"
+  ,
 }}
 
 DETAILS TO USE:
@@ -163,6 +164,8 @@ DETAILS TO USE:
 PARENTING STYLE (tone/approach guidance):
 {style_description}
 
+{scoring_text}
+
 HARD REQUIREMENTS:
 - Return ONLY the JSON object; no preface/suffix, no code fences.
 - Keep arrays within the specified ranges (key_points 3–5 items; each detailed section 2–3 items).
@@ -170,7 +173,7 @@ HARD REQUIREMENTS:
 - Use {request.child_name}'s name naturally in at least 3 bullets across the plan.
 """
 
-
+        print(prompt)
 
         # Call OpenAI
         resp = openai.chat.completions.create(
@@ -181,6 +184,7 @@ HARD REQUIREMENTS:
         print(resp)
         raw = resp.choices[0].message.content.strip()
         print(raw)
+        # print("characters:", len(raw))
 
         # Parse JSON output
         try:

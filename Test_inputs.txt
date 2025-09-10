@@ -585,4 +585,328 @@
     "Time commitment": "Okay with gradual plan"
   }
 }
-#--------------------------------------------------------------------------------
+#-------------------------------------Updated-------------------------------------------
+Sleep case (Gentle/PUPD expected)
+{
+  "parent_name": "Sarah",
+  "child_name": "Emma",
+  "child_age": "4-6 months",
+  "focus_area": "Sleep training",
+  "parenting_style": "attachment-focused",
+  "sleeping_arrangement": "bedsharing",
+  "additional_needs": ["medical monitoring"],
+  "specific_answers": {
+    "parent_preference": "no crying",
+    "comforting_style": "feed/rock",
+    "temperament": "sensitive/anxious",
+    "current_issues": ["gentle leaning"],
+    "overrides": ["medical"]
+  }
+}
+
+{
+  "summary": "Dear Sarah, thank you for sharing Emma's journey with us. We understand the challenges of sleep training and appreciate your efforts. This plan will gently guide you and Emma, focusing on emotional bonding while establishing healthy sleep habits. You've got this, and we're here to support you.",
+  "title": "Emma's Gentle Sleep Plan",
+  "focus": "Focusing on gentle sleep training for Emma, respecting her sensitive temperament.",
+  "goal": "To establish a gentle sleep routine for Emma, ensuring emotional safety and comfort.",
+  "method": "We'll use a gentle approach, incorporating the Pick Up/Put Down (PUPD) method, which aligns with your preference for no crying. This method allows Emma to feel secure while gradually learning to self-soothe. We'll emphasize emotional bonding, using feeding and rocking to comfort Emma, ensuring her sensitive nature is respected.",
+  "key_points": [
+    "Use PUPD method for gentle transitions.",
+    "Prioritize emotional bonding with Emma.",
+    "Incorporate feeding and rocking for comfort.",
+    "Respect Emma's sensitive temperament.",
+    "Ensure medical needs are always prioritized."
+  ],
+  "detailed_plan": {
+    "Establish a bedtime routine": [
+      "Start bedtime routine at same time daily.",
+      "Include a calming activity before sleep.",
+      "Use soft music or white noise for Emma."
+    ],
+    "Use PUPD method": [
+      "Pick up Emma when she cries.",
+      "Soothe Emma until calm, then lay down.",
+      "Repeat until Emma falls asleep."
+    ],
+    "Monitor Emma's cues": [
+      "Watch for signs of sleep readiness.",
+      "Adjust routine based on Emma's mood.",
+      "Keep a sleep diary for patterns."
+    ],
+    "Avoid": [
+      "Avoid letting Emma cry unattended.",
+      "Avoid overstimulation before bedtime."
+    ],
+    "Incorporate medical needs": [
+      "Ensure Emma's medical devices are secure.",
+      "Consult with a doctor for sleep concerns.",
+      "Adjust plan based on medical advice."
+    ]
+  },
+  "suggested_path_for_week": {
+    "Step 1 / Day 1-3": [
+      "Begin with consistent bedtime routine.",
+      "Introduce PUPD method gently.",
+      "Monitor Emma's response closely."
+    ],
+    "Step 2 / Day 4-6": [
+      "Continue PUPD with adjustments as needed.",
+      "Increase focus on Emma's comfort cues.",
+      "Document changes in sleep patterns."
+    ],
+    "Step 3 / Day 7": [
+      "Review progress and adjust routine.",
+      "Consult with medical professional if needed.",
+      "Celebrate small victories with Emma."
+    ]
+  },
+  "daily_routine": {
+    "schedule": [
+      {"time": "07:00 AM", "activity": "Morning feeding and cuddle"},
+      {"time": "09:00 AM", "activity": "Nap time with soothing music"},
+      {"time": "11:00 AM", "activity": "Playtime and interaction"},
+      {"time": "01:00 PM", "activity": "Afternoon feeding and nap"},
+      {"time": "03:00 PM", "activity": "Outdoor time with Emma"},
+      {"time": "05:00 PM", "activity": "Evening feeding and quiet play"},
+      {"time": "07:00 PM", "activity": "Bedtime routine and PUPD"}
+    ],
+    "notes": ["Adjust nap times based on Emma's alertness."]
+  },
+  "End_notes": "Sarah, your dedication to Emma's well-being is commendable. Remember, it's okay to seek help from our Experts Consultants if needed. You're doing an amazing job, and we're here to support you every step of the way. Keep prioritizing emotional safety and gentle guidance."
+}
+
+#-------------------------------------Updated-------------------------------------------
+Sleep case (Ferber/Fading expected)
+{
+  "parent_name": "John",
+  "child_name": "Lucas",
+  "child_age": "1-2 years",
+  "focus_area": "Sleep improvement",
+  "parenting_style": "high-achiever",
+  "sleeping_arrangement": "own room",
+  "additional_needs": [],
+  "specific_answers": {
+    "parent_preference": "quick results",
+    "comforting_style": "leave alone",
+    "temperament": "strong-willed",
+    "current_issues": ["night waking", "naps short"],
+    "overrides": []
+  }
+}
+
+{
+    "parenting_plan": {
+        "summary": "Dear John, thank you for sharing Lucas's journey with us. We know sleep challenges can be tough, but your dedication is commendable. This plan will gently guide you and Lucas towards better sleep. Stay encouraged; you're doing a great job!",
+        "title": "Lucas's Sleep Improvement Plan",
+        "focus": "Enhancing Lucas's sleep through structured routines and expert methods.",
+        "goal": "To establish a consistent sleep pattern for Lucas, reducing night waking and improving nap quality.",
+        "method": "We'll guide you through a proven 3-day method using the Ferber technique, tailored to Lucas's strong-willed temperament. This approach involves gradual adjustments to his sleep schedule, promoting self-soothing while ensuring quick results. With expert tips and check-ins, you'll see improvements swiftly.",
+        "key_points": [
+            "Implement Ferber method gradually.",
+            "Track Lucas's sleep patterns.",
+            "Adjust bedtime based on progress.",
+            "Encourage self-soothing techniques.",
+            "Monitor and adapt to Lucas's needs."
+        ],
+        "detailed_plan": {
+            "Establish Routine": [
+                "Set a consistent bedtime for Lucas.",
+                "Create a calming pre-sleep ritual.",
+                "Ensure Lucas's room is sleep-friendly."
+            ],
+            "Implement Ferber Method": [
+                "Start with short intervals.",
+                "Gradually increase wait times.",
+                "Comfort Lucas briefly if needed."
+            ],
+            "Monitor Progress": [
+                "Track Lucas's sleep duration.",
+                "Note changes in night waking.",
+                "Adjust based on Lucas's response."
+            ],
+            "Avoid": [
+                "Inconsistent bedtime routines.",
+                "Overstimulating activities pre-sleep."
+            ],
+            "Encourage Self-Soothing": [
+                "Allow Lucas to settle himself.",
+                "Use a favorite comfort object.",
+                "Praise Lucas's efforts to self-soothe."
+            ]
+        },
+        "suggested_path_for_week": {
+            "Step 1 / Day 1-3": [
+                "Introduce bedtime routine.",
+                "Start Ferber with short intervals."
+            ],
+            "Step 2 / Day 4-6": [
+                "Increase Ferber intervals gradually.",
+                "Monitor and adjust based on Lucas."
+            ],
+            "Step 3 / Day 7": [
+                "Evaluate progress and adjust plan.",
+                "Celebrate improvements with Lucas."
+            ]
+        },
+        "daily_routine": {
+            "schedule": [
+                {
+                    "time": "07:00 AM",
+                    "activity": "Wake up and breakfast"
+                },
+                {
+                    "time": "09:00 AM",
+                    "activity": "Morning nap"
+                },
+                {
+                    "time": "11:30 AM",
+                    "activity": "Lunch and playtime"
+                },
+                {
+                    "time": "01:00 PM",
+                    "activity": "Afternoon nap"
+                },
+                {
+                    "time": "03:30 PM",
+                    "activity": "Snack and quiet play"
+                },
+                {
+                    "time": "06:00 PM",
+                    "activity": "Dinner and family time"
+                },
+                {
+                    "time": "07:30 PM",
+                    "activity": "Bath and bedtime routine"
+                },
+                {
+                    "time": "08:00 PM",
+                    "activity": "Bedtime"
+                }
+            ],
+            "notes": [
+                "Adjust nap times based on Lucas's needs."
+            ]
+        },
+        "End_notes": "John, your commitment to improving Lucas's sleep is inspiring. Remember, our Expert Consultants are here to support you if needed. Keep up the great work, and don't hesitate to reach out for guidance or reassurance."
+    }
+}
+
+
+
+#-------------------------------------Updated-------------------------------------------
+Sleep case (Chair/Fading expected)
+{
+  "parent_name": "Alicia",
+  "child_name": "Noah",
+  "child_age": "7-12 months",
+  "focus_area": "Sleep support",
+  "parenting_style": "routine-based",
+  "sleeping_arrangement": "shared room sibling",
+  "additional_needs": ["twins"],
+  "specific_answers": {
+    "parent_preference": "some crying",
+    "comforting_style": "pat/pacifier",
+    "temperament": "mixed",
+    "current_issues": ["structured issues"],
+    "overrides": []
+  }
+}
+{
+    "parenting_plan": {
+        "summary": "Dear Alicia, thank you for sharing Noah's journey with us. We understand the challenges of managing sleep with twins, and we're here to support you. This plan will gently guide you and Noah towards better sleep. Your efforts are commendable, and we're excited to help you both succeed.",
+        "title": "Noah's Sleep Support Plan",
+        "focus": "Enhancing Noah's sleep in a shared room setting.",
+        "goal": "Establish a consistent sleep routine for Noah.",
+        "method": "We will use a gentle approach, incorporating the Pick Up/Put Down (PUPD) method, which aligns with your preference for some crying. This method, combined with your comforting style of patting and using a pacifier, will help Noah adjust to a structured sleep schedule. Consistency and patience are key to seeing progress.",
+        "key_points": [
+            "Use PUPD method consistently.",
+            "Incorporate patting and pacifier.",
+            "Track progress with a sleep chart.",
+            "Adjust routine based on Noah's cues.",
+            "Ensure predictable nap and feed times."
+        ],
+        "detailed_plan": {
+            "Establish a Routine": [
+                "Set consistent bedtime for Noah.",
+                "Create a calming pre-sleep ritual.",
+                "Use a sleep chart to track progress."
+            ],
+            "Implement PUPD Method": [
+                "Pick up Noah when he cries.",
+                "Put down when calm but awake.",
+                "Repeat until he falls asleep."
+            ],
+            "Incorporate Comforting Techniques": [
+                "Use patting to soothe Noah.",
+                "Offer pacifier when needed.",
+                "Ensure comfort without overstimulation."
+            ],
+            "Avoid": [
+                "Inconsistency in bedtime routine.",
+                "Overstimulating activities before bed."
+            ],
+            "Monitor and Adjust": [
+                "Track sleep patterns weekly.",
+                "Adjust based on Noah's temperament.",
+                "Celebrate small milestones."
+            ]
+        },
+        "suggested_path_for_week": {
+            "Step 1 / Day 1-3": [
+                "Introduce bedtime routine.",
+                "Start using PUPD method.",
+                "Track initial sleep patterns."
+            ],
+            "Step 2 / Day 4-6": [
+                "Continue PUPD consistently.",
+                "Incorporate patting and pacifier.",
+                "Adjust based on Noah's response."
+            ],
+            "Step 3 / Day 7": [
+                "Review progress with sleep chart.",
+                "Celebrate improvements with Noah.",
+                "Plan adjustments for next week."
+            ]
+        },
+        "daily_routine": {
+            "schedule": [
+                {
+                    "time": "07:00 AM",
+                    "activity": "Wake up and morning feed"
+                },
+                {
+                    "time": "09:00 AM",
+                    "activity": "Morning nap"
+                },
+                {
+                    "time": "11:00 AM",
+                    "activity": "Playtime and feed"
+                },
+                {
+                    "time": "01:00 PM",
+                    "activity": "Afternoon nap"
+                },
+                {
+                    "time": "03:00 PM",
+                    "activity": "Snack and playtime"
+                },
+                {
+                    "time": "05:00 PM",
+                    "activity": "Evening nap"
+                },
+                {
+                    "time": "07:00 PM",
+                    "activity": "Dinner and bath time"
+                },
+                {
+                    "time": "08:00 PM",
+                    "activity": "Bedtime routine and sleep"
+                }
+            ],
+            "notes": [
+                "Adjust nap times as needed based on Noah's cues."
+            ]
+        },
+        "End_notes": "Alicia, your dedication to Noah's sleep journey is inspiring. Remember, consistency is key. If you need further guidance, our Experts Consultants are here to help. You're doing a fantastic job, and we're here to support you every step of the way."
+    }
+}
